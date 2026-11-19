@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Alan Chaves · Videomaker</title>
+  <meta name="description" content="Alan Chaves, videomaker e editor de vídeo em Belém (PA). Captação, edição, direção e motion design para marcas, eventos e instituições de todo o Brasil.">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alan Chaves · Videomaker">
+  <meta property="og:description" content="Emoção real. Histórias verdadeiras. Captação, edição, direção e motion design.">
+  <meta property="og:image" content="assets/media/hero/hero.jpg">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/media/hero/hero.jpg" as="image">
+  <link rel="stylesheet" href="assets/css/style.css?v=20261119-tudo">
+</head>
+<body class="is-loading">
+
+  <!-- Barra do topo -->
+  <header class="nav">
+    <a class="nav__logo" href="#topo" aria-label="Alan Chaves, início">ALAN CHAVES<i class="nav__dot"></i></a>
+    <nav class="nav__links" aria-label="Principal">
+      <a class="roll" href="#trabalhos"><span data-t="Trabalhos">Trabalhos</span></a>
+      <a class="roll" href="#showreel"><span data-t="Showreel">Showreel</span></a>
+      <a class="roll" href="#sobre"><span data-t="Sobre">Sobre</span></a>
+      <a class="roll" href="#contato"><span data-t="Contato">Contato</span></a>
+    </nav>
+    <button class="nav__burger" type="button" aria-label="Abrir menu" aria-expanded="false" data-menu><i></i><i></i></button>
+  </header>
+  <div class="menu" data-menu-panel>
+    <a href="#trabalhos">Trabalhos</a>
+    <a href="#showreel">Showreel</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </div>
+
+  <main>
+    <!-- 1. Topo -->
+    <section class="hero" id="topo">
+      <div class="hero__media">
+        <video src="assets/media/hero/hero.mp4" poster="assets/media/hero/hero.jpg" autoplay muted loop playsinline aria-hidden="true"></video>
+      </div>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="hero__grid" aria-hidden="true"></div>
+
+      <div class="hero__top">
+        <div class="hero__id">
+          <p class="rec"><i class="rec__dot"></i><span data-timecode>REC 00:00:00:00</span></p>
+          <h1 class="hero__title"><span class="sr">Alan Chaves, </span>Videomaker</h1>
+          <p class="hero__addr">Belém · Pará · Brasil<br>Captação local · Edição para todo o país</p>
+        </div>
+        <div class="hero__services">
+          <p class="hero__year"><i class="plus" aria-hidden="true"></i>2020—26</p>
+          <ul>
+            <li>Captação</li>
+            <li>Edição</li>
+            <li>Direção</li>
+            <li>Motion</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="hero__headline">
+        <span class="line"><span class="line__in is-red" style="--i:0">Emoção real.</span><i class="hero__star" aria-hidden="true"></i></span>
+        <span class="line"><span class="line__in is-grad" style="--i:1">Histórias</span></span>
+        <span class="line"><span class="line__in is-cream" style="--i:2">Verdadeiras.</span></span>
+      </p>
+
+      <p class="hero__side" aria-hidden="true"><span>Alan Chaves</span><span>Todos os direitos reservados.</span><i class="barcode"></i></p>
+    </section>
+
+    <!-- 2. Trabalhos -->
+    <section class="work" id="trabalhos">
+      <div class="work__intro">
+        <h2 class="work__title" data-reveal>Conheça meus trabalhos</h2>
+        <p class="work__sub" data-reveal>Eventos, documentários, Reels e motion. Gravados, editados e entregues por mim.</p>
+      </div>
+      <div class="work__grid" data-grid></div>
+      <div class="work__more" data-reveal>
+        <a class="pill pill--dark" data-whats href="#"><span class="roll"><span data-t="Quero um vídeo assim">Quero um vídeo assim</span></span><i class="arrow"></i></a>
+      </div>
+    </section>
+
+    <!-- 3. Onde já trabalhei -->
+    <section class="clients" id="clientes">
+      <h2 class="clients__title" data-reveal>Onde já trabalhei</h2>
+      <p class="clients__sub" data-reveal>Marcas e instituições que confiaram no meu trabalho.</p>
+      <div class="ring" data-ring aria-label="Marcas e instituições">
+        <div class="ring__track" data-ring-track></div>
+      </div>
+      <div class="ring__ctrl">
+        <button type="button" data-ring-prev aria-label="Anterior"><i class="arrow arrow--left"></i></button>
+        <span class="ring__hand" aria-hidden="true"></span>
+        <button type="button" data-ring-next aria-label="Próximo"><i class="arrow"></i></button>
+      </div>
+      <p class="clients__foot" data-reveal>De concessionária a TV pública.<br>O mesmo cuidado em cada vídeo.</p>
+    </section>
+
+    <!-- 4. Trajetória e números -->
+    <section class="career" id="trajetoria">
+      <div class="sec-head" data-reveal>
+        <p class="sec-head__label"><i class="dot"></i>Trajetória</p>
+        <div class="sec-head__right"><p class="sec-head__tag"><i class="rec__dot"></i>Cap. 01</p><p class="sec-head__sub">Desde 2020.</p></div>
+      </div>
+      <h2 class="stagger" aria-label="Seis anos atrás da câmera. Mais de cem eventos gravados.">
+        <span class="stagger__line" style="--x:0">Seis anos</span>
+        <span class="stagger__line" style="--x:1">atrás da câmera.</span>
+        <span class="stagger__line" style="--x:2">Mais de cem</span>
+        <span class="stagger__line" style="--x:1">eventos gravados.</span>
+      </h2>
+
+      <div class="career__row">
+        <article class="feature" data-reveal>
+          <div class="feature__text">
+            <p class="feature__title">Natal com The Chosen</p>
+            <p class="feature__sub">Sociedade Bíblica do Brasil — 2024</p>
+            <p class="feature__desc"><i class="rec__dot rec__dot--white"></i>Uma viagem pelas comunidades ribeirinhas da Amazônia para registrar o Natal de quem mora na beira do rio.</p>
+            <button class="pill pill--light" type="button" data-open-item="ev_chosen"><span class="roll"><span data-t="Ver projeto">Ver projeto</span></span><i class="arrow"></i></button>
+          </div>
+          <div class="feature__card" aria-hidden="true">
+            <img src="assets/media/trabalhos/ev_chosen.jpg" alt="" loading="lazy">
+            <span class="feature__tag">Documentário<br>Amazônia<br>Dez · 2024</span>
+          </div>
+        </article>
+        <ul class="trail" data-trail data-reveal></ul>
+      </div>
+    </section>
+
+    <!-- 5. Showreel -->
+    <section class="reel" id="showreel">
+      <button class="reel__btn" type="button" data-open-reel aria-label="Assistir ao showreel">
+        <video data-reel-loop muted loop playsinline preload="none" aria-hidden="true"></video>
+        <span class="reel__shade"></span>
+        <span class="reel__brand">ALAN CHAVES<i class="nav__dot"></i><small>/ Showreel</small></span>
+        <span class="reel__play"><i></i></span>
+        <span class="reel__years">(2020—2026)</span>
+        <span class="reel__desc">Eventos, Reels, anúncios e motion. Um minuto do que eu faço.</span>
+      </button>
+    </section>
+
+    <!-- 6. Sobre -->
+    <section class="about" id="sobre">
+      <div class="sec-head" data-reveal>
+        <p class="sec-head__label"><i class="dot"></i>Sobre</p>
+        <div class="sec-head__right"><p class="sec-head__tag"><i class="rec__dot"></i>Cap. 02</p><p class="sec-head__sub">Quem está atrás da câmera.</p></div>
+      </div>
+      <div class="about__grid">
+        <article class="about__card about__card--me" data-reveal>
+          <figure class="about__photo"><img src="assets/img/sobre/alan_retrato.jpg" alt="Retrato de Alan Chaves" loading="lazy"></figure>
+          <div class="about__text">
+            <p class="about__name">Alan Chaves</p>
+            <p class="about__p">Sou editor de vídeo e videomaker em Belém, no Pará. Você me manda o material bruto e recebe o vídeo pronto: aftermovies, Reels, vídeos de marca pessoal e institucionais, contando a história que aconteceu de verdade, com a emoção de quem estava lá.</p>
+            <p class="about__role">Videomaker · Editor · Motion</p>
+          </div>
+          <p class="about__vertical" aria-hidden="true">Videomaker</p>
+        </article>
+        <article class="about__card about__card--dark" data-reveal>
+          <p class="about__brand">ALAN CHAVES<i class="nav__dot"></i></p>
+          <p class="about__h">Um só contato.<br><span>Do início ao fim.</span></p>
+          <p class="about__small">Você fala direto com quem grava e edita. Sem repasse e sem perder o que foi combinado no caminho.</p>
+          <div class="about__rec" aria-hidden="true"><i class="rec__dot"></i><span data-timecode>REC 00:00:00:00</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 7. Contato -->
+    <section class="cta" id="contato">
+      <div class="cta__inner" data-reveal>
+        <p class="eyebrow eyebrow--ink">Tem um projeto em vista?</p>
+        <p class="cta__h">Me conta o que você precisa: evento, Reels, vídeo institucional ou edição do seu material.</p>
+        <a class="pill pill--line cta__btn" data-whats href="#"><span class="roll"><span data-t="Chamar no WhatsApp">Chamar no WhatsApp</span></span><i class="arrow"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="foot">
+    <p class="foot__word" aria-hidden="true">ALAN CHAVES</p>
+    <p class="foot__tag">Emoção real. <span>Histórias verdadeiras.</span></p>
+    <div class="foot__cols">
+      <div class="foot__intro">
+        <p class="foot__h">Vamos conversar</p>
+        <p class="foot__small">Respondo pelo WhatsApp e pelo e-mail.</p>
+        <a class="foot__contact" data-mail href="#"></a>
+        <a class="foot__contact" data-whats data-whats-text href="#"></a>
+      </div>
+      <nav class="foot__col" aria-label="Rodapé">
+        <p class="foot__label">Navegação</p>
+        <a href="#topo">Início</a>
+        <a href="#trabalhos">Trabalhos</a>
+        <a href="#showreel">Showreel</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="foot__col">
+        <p class="foot__label">Redes</p>
+        <a data-ig href="#" target="_blank" rel="noopener">Instagram</a>
+        <a data-in href="#" target="_blank" rel="noopener">LinkedIn</a>
+        <a data-be href="#" target="_blank" rel="noopener">Behance</a>
+      </div>
+    </div>
+    <div class="foot__base">
+      <p><span class="red">Alan Chaves</span> é videomaker em Belém do Pará.<br><small>Captação, edição, direção e motion design.</small></p>
+      <p class="foot__copy">© 2020—<span data-year>2026</span> Alan Chaves. Todos os direitos reservados.</p>
+      <i class="rec__dot foot__dot" aria-hidden="true"></i>
+    </div>
+  </footer>
+
+  <!-- Tela com os trabalhos de uma categoria -->
+  <div class="cat" data-cat role="dialog" aria-modal="true" aria-labelledby="cat-title" aria-hidden="true">
+    <div class="cat__bar">
+      <p class="cat__crumb">Trabalhos <span>/</span> <span data-cat-crumb></span></p>
+      <button class="cat__close" type="button" data-cat-close><span class="roll"><span data-t="Fechar">Fechar</span></span><i aria-hidden="true"></i></button>
+    </div>
+    <div class="cat__scroll" data-cat-scroll>
+      <header class="cat__head">
+        <button class="cat__back" type="button" data-cat-back hidden><i class="arrow arrow--left" aria-hidden="true"></i><span>Voltar para <span data-cat-back-label></span></span></button>
+        <p class="cat__count" data-cat-count></p>
+        <h2 class="cat__title" id="cat-title" data-cat-title></h2>
+        <p class="cat__desc" data-cat-desc></p>
+        <div class="cat__statement" data-cat-statement hidden></div>
+      </header>
+      <div class="cat__groups" data-cat-groups></div>
+      <div class="cat__cta">
+        <p>Quer um vídeo assim?<br><span>Me conta o que você precisa.</span></p>
+        <a class="pill pill--dark" data-whats href="#"><span class="roll"><span data-t="Chamar no WhatsApp">Chamar no WhatsApp</span></span><i class="arrow"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Janela de vídeo -->
+  <dialog class="modal" data-modal aria-label="Vídeo">
+    <button class="modal__close" type="button" data-modal-close aria-label="Fechar">Fechar</button>
+    <div class="modal__stage" data-modal-stage></div>
+    <div class="modal__info"><p data-modal-title></p><a data-modal-link target="_blank" rel="noopener"></a></div>
+  </dialog>
+
+  <script src="assets/js/conteudo.js?v=20261119-tudo"></script>
+  <script src="assets/js/main.js?v=20261119-tudo"></script>
+</body>
+</html>
